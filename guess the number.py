@@ -1,7 +1,7 @@
 
 import random                                   # python in-built module import for print random number
 
-print("Welcome To The Guessing Number Game!")             # this print greetings for game
+print("Welcome To The Guessing Number Game!")             
 
 random_num = random.randint (1,100)                    # randint fuction give random number in 1 to 100 
 
