@@ -1,17 +1,17 @@
 
-import random                                   # python in-built module import for print random number
+import random                                         # python in-built module import for print random number
 
 print("Welcome To The Guessing Number Game!")             
 
 random_num = random.randint (1,100)                    # randint fuction give random number in 1 to 100 
 
-attempts = 0                                    # (attempts it's used for how many time player to takes attempts)
+attempts = 0                                           
 
 while True :  
 
     guess=int(input("Guess The Number : "))            # guess variable get the number from player
 
-    attempts +=1                               # this arguments attempts count one plus one 
+    attempts +=1                                       # this arguments attempts count one plus one 
   
 
     if guess == random_num:
